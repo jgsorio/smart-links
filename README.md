@@ -54,6 +54,13 @@ Configure o banco de dados no `.env` e rode as migrations:
 php artisan migrate
 ```
 
+
+Gere o link do storage para a pasta pública
+
+```bash
+php artisan storage:link
+```
+
 ## 🧪 Rodando o projeto
 
 Inicie o servidor de desenvolvimento Laravel:
@@ -66,12 +73,6 @@ Compile os assets com Vite:
 
 ```bash
 npm run dev
-```
-
-Gere o link do storage para a pasta pública
-
-```
-php artisan storage:link
 ```
 
 
